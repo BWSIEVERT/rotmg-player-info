@@ -1,8 +1,7 @@
-import React, { useState, useEffect } from "react";
+import React, { useState} from "react";
 import { fetchUserInfo } from "./store/actions";
 import { connect } from "react-redux";
 import "./App.css";
-import { findByLabelText } from "@testing-library/react";
 
 // Material-UI imports:
 import { Typography } from "@material-ui/core"
